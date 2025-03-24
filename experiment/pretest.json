@@ -1,7 +1,7 @@
 {
   "version": 2.0,
   "questions": [{
-      "question": "1. Who is considered the "Father of Virtual Reality"? ",
+      "question": "1. Who is considered the 'Father of Virtual Reality'? ",
       "answers": {
         "a": "John Carmack",
         "b": "Ivan Sutherland ",
