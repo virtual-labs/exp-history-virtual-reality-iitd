@@ -1,29 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<style>
+		.slider-container {
+			width: 400px;
+			margin: 40px auto;
+			text-align: center;
+		}
+		.headset-img {
+			width: 300px;
+			object-fit: contain;
+			margin: 20px 0;
+		}
+		.headset-name {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		input[type="range"] {
+			width: 100%;
+		}
+		.headset-about {
+			margin-top: 20px;
+			font-size: 1rem;
+			color: #333;
+		}
+	</style>
 </head>
 <body>
-		<!-- Your code goes here-->
-		<p>Make a slider of virtual reality headsets and set up the experiment.  </p>
-		
-		<ol>This approach is using Unity3D, a popular game engine for VR development.   
-		
-		<li>Create a new Unity project or open an existing one and then set up your VR scene with the necessary environment and objects.</li> 
-		<li>Add a 3D object such as a cube or cylinder to represent the slider handle and position the slider object appropriately within your scene.  </li>
-		<li>Attach a script to the slider object to handle user interaction.  </li>
-		<li>Use input from the VR controllers (e.g., Oculus Touch controllers) to detect when the user grabs and moves the slider.</li> 
-		<li>Update the position of the slider handle based on the user's input.  </li>
-		<li>Define the minimum and maximum values that the slider can represent.  </li>
-		<li>Check the VR controllers to enhance the user experience, and also check the current value of the slider.  </li>
-		<li>Test the slider interface in VR to ensure that it works as intended. Modify if necessary.  </li>
-		<br>
-		(Remember to attach this script to the slider object in your Unity scene and configure the script's properties as required. Test the slider interface in VR to ensure it behaves as expected and refine it as needed for optimal usability).
-		
-		</ol>
+	<div class="slider-container">
+		<p>Select a Virtual Reality Headset:</p>
+		<div class="headset-name" id="headsetName"></div>
+		<img id="headsetImg" class="headset-img" src="" alt="VR Headset">
+		<input type="range" id="headsetSlider" min="0" max="2" value="0">
+		<div class="headset-about" id="headsetAbout"></div>
+	</div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+	<script>
+		const headsets = [
+			{
+				name: "Oculus Quest 2",
+				img: "./images/Oculus.webp",
+				about: "The Oculus Quest 2 is a standalone VR headset developed by Oculus, a division of Meta. It offers wireless freedom and a wide range of VR experiences."
+			},
+			{
+				name: "HTC Vive",
+				img: "./images/HTC.webp",
+				about: "The HTC Vive is a PC-powered VR headset known for its precise tracking and immersive room-scale experiences, popular among gamers and professionals."
+			},
+			{
+				name: "Valve Index",
+				img: "./images/Valve.webp",
+				about: "The Valve Index is a high-end VR headset featuring advanced optics, high refresh rates, and finger-tracking controllers for a premium VR experience."
+			}
+		];
+
+		const slider = document.getElementById('headsetSlider');
+		const headsetName = document.getElementById('headsetName');
+		const headsetImg = document.getElementById('headsetImg');
+		const headsetAbout = document.getElementById('headsetAbout');
+
+		function updateHeadset(index) {
+			headsetName.textContent = headsets[index].name;
+			headsetImg.src = headsets[index].img;
+			headsetImg.alt = headsets[index].name;
+			headsetAbout.textContent = headsets[index].about;
+		}
+
+		slider.addEventListener('input', function() {
+			updateHeadset(this.value);
+		});
+
+		// Initialize
+		updateHeadset(slider.value);
+	</script>
+	<script src="./js/main.js"></script>
 </body>
 </html>
