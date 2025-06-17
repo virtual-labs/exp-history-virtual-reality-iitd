@@ -1,0 +1,82 @@
+{
+  "version": 2.0,
+  "questions": [{
+      "question": "1. What was the name of the virtual reality system developed by SEGA in the 1990s?",
+      "answers": {
+        "a": "SEGA VR",
+        "b": "Dreamcast VR",
+        "c": "SEGA Saturn VR",
+        "d": "SEGA Genesis VR"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What term is often used to describe the period in the 1990s when virtual reality experienced a surge in public interest followed by a decline?",
+      "answers": {
+        "a": "Virtual Revolution",
+        "b": "VR Boom",
+        "c": "Cyber Age",
+        "d": "Virtual Winter"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which movie released in 1999 portrayed a dystopian future where humans interacted in a virtual reality world called the Matrix?",
+      "answers": {
+        "a": "The Truman Show",
+        "b": "Inception",
+        "c": "The Matrix",
+        "d": "Avatar"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What was the name of the virtual reality startup founded by Palmer Luckey, which later developed the Oculus Rift?",
+      "answers": {
+        "a": "V-Ring",
+        "b": "Oculus VR",
+        "c": "Virtuality Inc.",
+        "d": "Virtuix"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What year did Facebook acquire Oculus VR, the company behind the Oculus Rift?",
+      "answers": {
+        "a": "2012",
+        "b": "2014",
+        "c": "2016",
+        "d": "2018"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following is NOT a major component of virtual reality systems?",
+      "answers": {
+        "a": "Haptic feedback devices",
+        "b": "Motion tracking sensors",
+        "c": "Neural implants",
+        "d": "Stereoscopic displays"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 7,
+      "question": "7. True or False: Virtual reality technology has primarily been used for gaming and entertainment purposes.",
+      "options": [
+          "True",
+          "False"
+      ],
+      "answer": "False"
+  }
+        
+    
+   
+  ]
+}

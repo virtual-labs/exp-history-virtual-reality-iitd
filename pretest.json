@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [{
+      "question": "1. Who is considered the 'Father of Virtual Reality'? ",
+      "answers": {
+        "a": "John Carmack",
+        "b": "Ivan Sutherland ",
+        "c": "Palmer Luckey",
+        "d": "Tim Berners-Lee"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In what year did Ivan Sutherland develop the first virtual reality head-mounted display (HMD)?",
+      "answers": {
+        "a": "1955",
+        "b": "1968 ",
+        "c": "1983",
+        "d": "1996"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.Which groundbreaking virtual reality system was released by Nintendo in the 1990s?",
+      "answers": {
+        "a": "PlayStation VR",
+        "b": "Oculus Rift ",
+        "c": "Virtual Boy",
+        "d": "HTC Vive"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+   
+  ]
+}
