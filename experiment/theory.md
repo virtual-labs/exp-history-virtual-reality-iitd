@@ -6,6 +6,8 @@ The history of virtual reality (VR) is a fascinating journey through the realms 
 
 In 2012, Palmer Luckey founded Oculus VR, a startup focused on developing affordable and high-quality VR hardware. Oculus Rift, the company's flagship VR headset, garnered widespread attention and acclaim, leading to Facebook's acquisition of Oculus VR in 2014 [7]. Since then, VR has continued to evolve, with major tech companies like HTC, Sony, and Microsoft investing in VR platforms and experiences. From immersive gaming and entertainment to applications in healthcare, education, and beyond, VR has become an integral part of our digital landscape, offering new possibilities for exploration, creativity, and collaboration [8].
 
+![VR History](/experiment/images/VR-History.webp)
+
 **a) Stereoscopy:**
 
 ![Stereoscopy](images/fig1.png)
@@ -125,3 +127,4 @@ Standalone VR headsets, like Oculus Quest, do not require a PC or external devic
 *Img. 15 VR and Prospects*
 
 VR continues to evolve with advancements in technology, offering vast potential in various fields such as gaming, education, healthcare, training, and more. As technology improves, VR is becoming more immersive, affordable, and accessible to wider audiences, promising exciting prospects for its future applications and growth.
+
